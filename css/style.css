@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  background-color:var(--baby-pink);
+}
+
+.inline-block {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+}
+
+header {
+  background-color: var(--blue);
+}
+
+.logo {
+  width: 20%;
+  padding: 1%;
+  text-align: center;
+}
+
+nav {
+width: 70%;
+padding: 2%;
+}
+
+nav ul {
+  width: 50%;
+  margin-left: auto;
+}
+
+header li {
+  display: inline-block;
+  padding: 0px 35px;
+  font: 400 24px 'Inria Serif', serif;
+  align-items: center;
+  justify-content: center;
+  color: #ffe6e6;
+}
+
+.heroImg {
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.content {
+  display: grid;
+  max-width: 1300px;
+  margin: 0 auto;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  background: var(--bg-white-pink);
+  padding: 2%;
+}
+
+.content img {
+  grid-column: 1;
+}
+
+.body-text {
+  grid-column: 2;
+  display: inline-fleX;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-shadow: 8px 8px 8px #ffffff59;
+  font: 700 84px 'Calluna', serif;
+  color: var(--typography-navy);
+  letter-spacing: 20px;
+  white-space: nowrap;
+}
+
+h2 {
+  text-shadow: 8px 8px 8px #ffffff59;
+  font: 700 62px 'Calluna', serif;
+  color: var(--typography-navy);
+  letter-spacing: 20px;
+  white-space: nowrap;
+}
+
+h3 {
+  text-shadow: 8px 8px 8px #ffffff59;
+  font: 700 42px 'Calluna', serif;
+  color: var(--typography-navy);
+  letter-spacing: 7px;
+}
+
+h4 {
+  text-shadow: 8px 8px 8px #ffffff59;
+  font: 700 36px 'Calluna', serif;
+  color: var(--typography-navy);
+  letter-spacing: 7px;
+}
+
+s1 {
+    text-shadow: 8px 8px 8px #ffffff59;
+    font: 500 28px 'Calluna', serif;
+    font-style: italic;
+    color: var(--typography-navy);
+    letter-spacing: 7px;
+}
+
+p {
+  letter-spacing: 4.16px;
+  line-height: normal;
+  text-shadow: 8px 8px 8px #ffffff59;
+  font: 300 24px 'Fira Sans Condensed', sans-serif;
+  color: var(--typography-navy);
+  text-align: justify;
+  justify-content: center;
+}
+
+button {
+  display: inline-flex;
+  width: 240px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 18px 26px;
+  background-color: var(--pink);
+  color: white;
+  font: 400 24px 'Fira Sans Condensed', sans-serif;
+  border-radius: 200px;
+}
+
+button:hover, button:focus {
+  background-color: var(--blue);
+}
+
+footer {
+  background-color: var(--blue);
+  align-content: baseline bottom;
+  padding: 15px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 15px;
+  vertical-align: top;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 35px;
+  font: 400 24px 'Inria Serif', serif;
+  align-items: center;
+  justify-content: center;
+  color: #ffe6e6;
+  margin: 0 auto;
+}
